@@ -5,7 +5,7 @@ import { UserAuth } from '../context/authContext';
 const SignUp = () => {
 	const emailInputRef = useRef();
 	const passwordInputRef = useRef();
-	const { user, signUp } = UserAuth();
+	const { signUp } = UserAuth();
 	const navigate = useNavigate();
 
 	const submitHandler = async (e) => {

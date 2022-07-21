@@ -68,21 +68,21 @@ const Login = () => {
 								<button className="bg-red-600 py-3 my-6 rounded font-bold">
 									Sign In
 								</button>
-								<div className="flex justify-between items-center text-sm text-gray-600">
+								<div className="flex justify-between items-center text-sm text-gray-400">
 									<p>
 										<input
 											className="mr-2"
 											type="checkbox"
 										/>
-										Remember me
+										Remember Me
 									</p>
 									<p>Need Help?</p>
 								</div>
 								<p className="py-8">
-									<span className="text-gray-600">
-										New to Netflix?
+									<span className="text-gray-400 ">
+										New to Netflix ?
 									</span>
-									<Link to="/signup">Sign Up</Link>
+									<Link to="/signup"> Sign Up</Link>
 								</p>
 							</form>
 						</div>
