@@ -1,7 +1,7 @@
 import React from 'react';
-import Movies from '../../components/Content/Movies';
-import MoviesRow from '../../components/Content/MoviesRow';
-import requestsAPI from '../../helper/requestAPI';
+import Movies from '../components/Content/Movies';
+import MoviesRow from '../components/Content/MoviesRow';
+import requestsAPI from '../helper/requestAPI';
 
 const Home = () => {
 	return (
