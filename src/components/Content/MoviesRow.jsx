@@ -36,7 +36,7 @@ const MoviesRow = ({ title, url, rowID }) => {
 					id={'slider' + rowID}
 					className="w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide relative"
 				>
-					{movies.map((movie, id) => (
+					{movies?.map((movie, id) => (
 						<MoviesList key={movie.id} movie={movie} />
 					))}
 				</div>
